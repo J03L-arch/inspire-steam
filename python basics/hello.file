@@ -1,0 +1,9 @@
+#This is a comment
+print("hello from Joel!")
+print("I am from Kiambu")
+
+print("i like to watch movies, gaming, sleeping")
+age=17
+height=170
+weight=58
+print(f"I am {age} years old , i am also {height} cm tall and weigh {weight} kgs")

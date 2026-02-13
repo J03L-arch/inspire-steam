@@ -1,6 +1,6 @@
 #Name:Joel Mwega
 #Date:12,02,2026
-#Program:To add, subtract, multiply, divide numbers
+#Program: To add, subtract, multiply, divide numbers
 
 #first_number=int(input("Enter th first number"))
 #second_number=int(input("Enter the second number"))

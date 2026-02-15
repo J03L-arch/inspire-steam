@@ -6,3 +6,6 @@ sum=0
 for x in range(1,11):
     sum= sum + 1
 print(f"the sum of the numbers is {sum}")
+for x in range(1,11):
+    squares= x**2
+    print (f"The squares of the numbers are:{squares}")

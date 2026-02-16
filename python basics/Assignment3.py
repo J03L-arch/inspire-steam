@@ -3,8 +3,8 @@
 #Program: Tablize trigonometric ratios
 
 import math
-
-print("_____________________________________________________________")
-print("| x    |   sin x           |   cos x          |   tan x     |")
-print("| -180 |  {math.sin(-180)}    | {math.cos(-180)}    | math.tan(-180) |")
-print("| -150 |  {math.sin(x)}    | {math.cos(x)}    | math.tan(x) |")
+print("__________________________________________________________________________")
+print(f"| x    |   sin x                  |cos x               |   tan x                  ")
+for x in range(-180,210,30):
+  print(f"|  {x}    |  {math.sin(-180)} | {math.cos(x)} | {math.tan(x)}           ")
+  

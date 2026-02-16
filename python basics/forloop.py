@@ -11,3 +11,8 @@ for x in range(0,360,30):
 for y in range(10,0,-1):
     print(y)
 
+for X in range(-180,210,30):
+    print(f"cosine of X= {math.cos(X)}")
+    print(f"sine of X= {math.sin(X)}")
+    print(f"tangent of X= {math.tan(X)}")
+

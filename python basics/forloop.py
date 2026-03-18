@@ -16,3 +16,4 @@ for X in range(-180,210,30):
     print(f"sine of X= {math.sin(X)}")
     print(f"tangent of X= {math.tan(X)}")
 
+    bitchass nigga pusssy ass 

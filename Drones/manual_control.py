@@ -1,6 +1,6 @@
 from  pysimverse import Drone
 import time
-import cv2
+import keyboard
 
 drone= Drone()
 drone.connect()
@@ -10,7 +10,7 @@ drone.take_off(5)
 rc_speed= 250
 
 while True:
-    key= cv2.waitKey(1) & 0xff
+    key= keyboard.read_key()
 
 #get all values to 0
     left_right= 0

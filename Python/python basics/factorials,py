@@ -1,0 +1,13 @@
+#Name:Joel Mwega
+#Date:16,02,2026
+#Program: To calculate factorials
+
+number= int(input("Enter the number x:"))
+factorial=1 #Initialize factorial
+for x in range(1,(number+1)):
+    factorial*=  x
+
+print(f"{number}!={factorial}")
+
+
+

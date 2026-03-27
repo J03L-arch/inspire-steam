@@ -16,7 +16,7 @@ print(7%2) #modulus=remainder
 
 #even and odd numbers
 for x in range(0,21):
-    if x%2==0:
+    if x%2=0:
         print(f"{x} is an even number")
     elif x%2==1:
         print(f"{x} is an odd number")

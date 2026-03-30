@@ -50,7 +50,7 @@ body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    color: var(--second-color);
+    color: gold;
 }
 h1,h2,p{
     margin: 0;  
@@ -108,7 +108,7 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #fff;
+    background-color: gray;
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
